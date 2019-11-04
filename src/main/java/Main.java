@@ -1,6 +1,8 @@
 public class Main {
 
     public static void main(String args[]) {
-        System.out.println("Hello World");
+        Employee emp1 = new Employee(1,"Pedro","Meneses",1000);
+        System.out.println(emp1.toString());
+
     }
 }
